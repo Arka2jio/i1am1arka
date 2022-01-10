@@ -1,0 +1,1 @@
+Language={};Language.EN=true;Language.US=false;Language.DE=true;Language.FR=true;Language.IT=true;Language.ES=true;Language.BR=true;Language.PT=false;Language.JP=false;Language.CN=false;Language.KR=false;Language.RU=true;Language.TR=false;Language.PL=false;Language.CZ=false;Language.count=7;
