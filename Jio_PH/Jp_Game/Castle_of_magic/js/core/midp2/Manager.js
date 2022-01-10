@@ -1,0 +1,1 @@
+if(typeof javax=="undefined"){javax=function(){}}if(typeof javax.microedition=="undefined"){javax.microedition=function(){}}if(typeof javax.microedition.media=="undefined"){javax.microedition.media=function(){}}javax.microedition.media.Manager=function(){};Manager=javax.microedition.media.Manager;Manager.createPlayer=function(b,a){return new Player(b,a)};

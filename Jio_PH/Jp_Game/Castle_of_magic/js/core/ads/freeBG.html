@@ -1,0 +1,38 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style>
+div.transbox {
+    width: 125%;
+    height: 125%;
+	//width: 100%;
+    //height: 100%;
+    margin: -10% -10%;
+    background-color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+	<div class="transbox">
+	<img id="loading_gif1" style="width:80px;height:80px;position: fixed;top: 50%;left: 50%;margin-top: -40px;margin-left: -40px;">
+	</div>
+	<script>
+		if(parent.GameStarted)
+				document.getElementById("loading_gif1").style.display = "none";
+		var update = setInterval(
+								function() {
+									if(parent.GameStarted)
+									{
+										document.getElementById("loading_gif1").style.display = "none";
+										clearInterval(update);
+									}
+								},
+								100
+						);
+		if(parent.document.getElementById("loading_gif"))
+			document.getElementById("loading_gif1").src = parent.document.getElementById("loading_gif").src;
+		else
+			document.getElementById("loading_gif1").src = "loading.gif";
+	</script>
+</body></html>

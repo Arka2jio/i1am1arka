@@ -1,0 +1,1 @@
+function Font(){if(typeof Font.__declared_statics__=="undefined"){Font.__declared_statics__=true;Font.SIZE_MEDIUM=0;Font.SIZE_SMALL=8;Font.SIZE_LARGE=16;Font.STYLE_PLAIN=0;Font.STYLE_BOLD=1;Font.STYLE_ITALIC=2;Font.STYLE_UNDERLINED=4;Font.FACE_SYSTEM=0;Font.FACE_MONOSPACE=32;Font.FACE_PROPORTIONAL=64;Font.FONT_STATIC_TEXT=0;Font.FONT_INPUT_TEXT=1}};

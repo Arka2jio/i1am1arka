@@ -1,0 +1,106 @@
+
+
+
+/*! html,body{height:100%;padding:0px; margin:0px; overflow: hidden;background: #000;} */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: #000;
+}
+body.debug {
+    background: #fff;
+}
+
+#gameloft-root-div,
+#gameloft-loading-div, #gameloft-user-input-div, #gameloft-display-div {
+    height:100%;
+    width:100%;
+    min-height:100%;
+    min-width:100%;
+    max-height:100%;
+    max-width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#gameloft-display-div {
+    z-index: 0 !important;
+}
+#gameloft-loading-div, #gameloft-user-input-div {
+    z-index: 1 !important;
+}
+
+canvas {
+    z-index: 10000;
+    touch-action: none;
+}
+
+/*! for gameloft-debug-div */
+#gameloft-debug-div{
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    display: none;
+}
+
+#gameloft-debug-div.hide-log > .console-log
+{
+    display:none;
+}
+#gameloft-debug-div.hide-warning > .console-warning
+{
+    display:none;
+}
+#gameloft-debug-div.hide-error > .console-error
+{
+    display:none;
+}
+#gameloft-debug-div {
+    overflow: auto;
+}
+
+#gameloft-debug-div  > .console {
+    padding-left:5px;
+    margin: 5px 0px;
+}
+
+#gameloft-debug-div > .console  + .console-warning {
+    color:orange;
+}
+
+#gameloft-debug-div > .console + .console-error {
+    color:red;
+}
+/*! for gameloft-actions-div */
+#gameloft-actions-div {
+    display: none;
+}
+body.debug  > #gameloft-actions-div {
+    display: block;
+}
+#gameloft-actions-div  > * {
+    position: relative;
+    z-index: 10000;
+    margin: 3px;
+    padding: 3px;
+}
+#gameloft-actions-div > label{
+    position: absolute;
+}
+#gameloft-actions-div label{
+    background: lightgray;
+}
+

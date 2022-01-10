@@ -1,0 +1,1 @@
+if(typeof Integer=="undefined"){Integer=function(){throw new Error("Static class: Not allows to create a new instance!")}}Integer.MIN_VALUE=-(Math.pow(2,31));Integer.MAX_VALUE=-(Integer.MIN_VALUE)-1;Integer.toHexString=function(a){return a.toString(16)};Integer.parseInt=function(b){var a=parseInt(b,10);if(isNaN(a)){throw new Error("Wrong value")}return a};
