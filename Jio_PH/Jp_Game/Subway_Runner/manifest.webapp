@@ -1,0 +1,28 @@
+{
+  "version": "1.0.4",
+  "name": "Subway Runner",
+  "description": "subway runner",
+  "launch_path": "/index.html",
+  "type": "web",
+  "fullscreen": "true",
+
+  "installs_allowed_from": [
+    "*"
+  ],
+   "icons": {
+    "56": "/icons/56x56.png",
+	 "112": "/icons/112x112.png"
+  },
+  "developer": {
+    "name": "Mobi2fun",
+    "url": "http://www.mobi2fun.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Subway Runner",
+      "subtitle": "3D Runner game",
+      "description": "Subway is an endless runner,with sliding,jumping and switching track for an cute character to avoide obstacles."
+    }
+  },
+    "default_locale": "en-US"
+}
