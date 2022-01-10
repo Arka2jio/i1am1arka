@@ -1,0 +1,1 @@
+(function(b,c){function a(){}a.screenWidth=240*3;a.screenHeight=320*3;a.keycodeLeftSoftkey=-6;a.keycodeRightSoftkey=-7;a.keycodeFire=-5;a.keycodeUp=-1;a.keycodeDown=-2;a.keycodeLeft=-3;a.keycodeRight=-4;a.softkeyOKOnLeft=true;LowAPI.extendObject(b,{GLLibDeviceConfig:a},true)})(window);

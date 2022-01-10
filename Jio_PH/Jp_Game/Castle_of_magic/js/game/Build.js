@@ -1,0 +1,1 @@
+Build={};Build.debug=false;Build.midp=20;Build.nokiaUI=false;Build.cldc=10;Build.jsr075=false;Build.jsr082=false;Build.jsr135=true;Build.jsr184=false;Build.jsr234=false;Build.useXplayer=true;Build.useIGP=false;Build.useCGMRC=false;Build.encoding="UTF-8";
