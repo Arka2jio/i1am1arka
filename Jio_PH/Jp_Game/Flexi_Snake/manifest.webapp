@@ -1,0 +1,25 @@
+{
+  "version": "1.3.3",
+  "name": "Flexi Snake",
+   "type": "web",
+  "description": "It’s like the old-school snake but super flexi! If you're a snake game fan, this game will delight you!",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/icon-56x56.png",
+    "112": "/icons/icon-112x112.png"
+  },
+  "fullscreen": true,
+  "developer": {
+    "name": "Gamezop",
+    "url": "https://www.gamezop.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Flexi Snake",
+      "description": "It’s like the old-school snake but super flexi! If you're a snake game fan, this game will delight you!"
+    }
+  },
+  "default_locale": "en-US",
+  "subtitle": "This snake will never break.",
+  "categories": ["games"]
+}
