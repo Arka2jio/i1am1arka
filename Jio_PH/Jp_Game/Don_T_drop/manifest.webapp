@@ -1,0 +1,28 @@
+{
+  "version": "1.0.3",
+  "name": "Dont Drop",
+  "description": "A classic egg toss game from your childhood memories is available in your phones.Aim properly and be patient to clear all the stages in the game.",
+  "launch_path": "/index.html",
+   "type": "web",
+     "fullscreen": "true",
+  
+  "installs_allowed_from": [
+    "*"
+  ],
+  "icons": {
+    	"56": "/icons/56x56.png",
+   	 "112": "/icons/112x112.png"
+     },
+  "developer": {
+    "name": "Mobi2fun",
+    "url": "http://www.mobi2fun.com"
+  },
+  "locales": {
+    "en-US": {
+    "name": "Dont Drop",
+  "subtitle": "Bring back your memories and play this addictive game",
+  "description": "A classic egg toss game from your childhood memories is available in your phones.Aim properly and be patient to clear all the stages in the game."
+  }
+  },
+    "default_locale": "en-US"
+}
