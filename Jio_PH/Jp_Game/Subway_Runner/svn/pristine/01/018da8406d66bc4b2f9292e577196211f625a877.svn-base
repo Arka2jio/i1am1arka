@@ -1,0 +1,45 @@
+<!DOCTYPE html>  
+<html>
+    <head>  
+        <meta charset="utf-8" />
+        <title>Subway Runner</title>
+        <style>
+   body {
+
+      
+    margin-left: 0px;
+    margin-top: 0px;   
+    padding: 0px;
+    margin: 0px; 
+    width: 100%;
+    height: 100%;
+}
+</style>
+        
+		 
+        <script type="text/javascript" src="phaser.min.js"></script>
+          <script src="lib/games_SDK_2.1.js"></script>
+         <script src="//jiogames.akamaized.net/gameSDK/games_SDK.js"></script>
+		<!--<script type = "text/javascript" src="sdkListener.js"></script>-->
+      
+        <script type="text/javascript" src="states/boot.js"></script>
+      <script type="text/javascript" src="states/load.js"></script>
+         <script type="text/javascript" src="states/help.js"></script>
+        <script type="text/javascript" src="states/menu.js"></script>
+       <script type="text/javascript" src="states/gameplay.js"></script>
+         <script type="text/javascript" src="states/congrats.js"></script>
+        <script type="text/javascript" src="states/gameover.js"></script>
+    <script type="text/javascript" src="states/game.js"></script>
+        
+	
+     
+    </head>
+
+    <body>
+  
+        <div id ="subwayRunner"></div>
+     <!--           <ins id="subwaySurfer" class="adsbyjio" data-adspot-key="fb3e5059" data-source="com.mobi2fun.colorswitch" data-idfa=""></ins>-->
+
+       <!-- <ins id="colorSwitchAds" class="adsbyjio" data-adspot-key="fb3e5059" data-source="com.mobi2fun.colorswitch" data-idfa=""></ins>-->
+    </body>  
+</html>  
