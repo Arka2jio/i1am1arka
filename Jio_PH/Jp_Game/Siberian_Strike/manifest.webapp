@@ -1,0 +1,101 @@
+{
+  "name": "Siberian Strike",
+  "version": "1.1.1",
+  "description": "Siberian Strike is a retro-style aerial combat game where you face challenging bosses in massive aircrafts. With lots of action, exciting combat and cool upgrades to make your planes stronger, the game will test your skills and provide tons of fun. Controls: Use D-Pad Up/Down/Left/Right or press 2/4/6/8 to control the plane and avoid enemy aircrafts' fire as the plane automatically shoots them down. Beat the bosses to complete levels.",
+  "launch_path": "/index.html",
+  "fullscreen": "true",
+  "type": "certified",
+  "icons": {
+    "56": "/icon-56.png",
+	"112": "/icon-112.png"
+  },
+  "developer": {
+    "name": "Gameloft",
+    "url": "www.gameloft.com"
+  },
+  "permissions": {
+    "sms": {
+      "description": "Required for send sms"
+    },
+    "mobilenetwork" : {
+      "description": "Get phone information"
+    },
+    "systemXHR": {},
+    "telephony": {},
+    "settings": { "access": "readonly" },
+    "device-storage:sdcard":{ "access": "readwrite" }
+  },
+  "locales": {
+    "en-US": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike is a retro-style aerial combat game where you face challenging bosses in massive aircrafts. With lots of action, exciting combat and cool upgrades to make your planes stronger, the game will test your skills and provide tons of fun. Controls: Use D-Pad Up/Down/Left/Right or press 2/4/6/8 to control the plane and avoid enemy aircrafts' fire as the plane automatically shoots them down. Beat the bosses to complete levels."
+    },
+	"en-GB": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike is a retro-style aerial combat game where you face challenging bosses in massive aircrafts. With lots of action, exciting combat and cool upgrades to make your planes stronger, the game will test your skills and provide tons of fun. Controls: Use D-Pad Up/Down/Left/Right or press 2/4/6/8 to control the plane and avoid enemy aircrafts' fire as the plane automatically shoots them down. Beat the bosses to complete levels."
+    },
+    "fr-FR": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike est un jeu de combat aérien de style rétro vous mettant face à des bosses retors dans des aéronefs monstrueux. Bourré d'action, de combats palpitants et de super améliorations pour renforcer vos avions, le jeu mettra vos talents à rude épreuve tout en vous amusant. Commandes : utilisez le D-Pad haut/bas/gauche/droite ou appuyez sur 2/4/6/8 pour contrôler l'avion et éviter les tirs des avions ennemis tandis que votre avion tire automatiquement. Battez les bosses pour terminer les niveaux."
+    },
+    "it-IT": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike è un gioco di battaglie aeree in stile retro in cui affronti tostissimi boss in enormi velivoli. Ricco d'azione, battaglie emozionanti e fantastici potenziamenti per rendere più forti i tuoi aerei, questo divertentissimo gioco metterà alla prova le tue capacità. Comandi: usa su/giù/sinistra/destra sul D-pad o premi 2/4/6/8 per controllare l'aereo. Abbatti gli aerei nemici ed evita i loro proiettili. Sconfiggi i boss per completare i livelli."
+    },
+    "de-DE": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike ist ein Luftschlachtspiel im Retrostil, in dem du herausfordernden Bossen in riesigen Luftschiffen entgegentrittst. Das Spiel wird deine Fähigkeiten mit viel Action, spannenden Gefechten und coolen Upgrades, die deine Flugzeuge verstärken, auf die Probe stellen und dir massenhaft Spaß bieten. Steuerung: Benutze Steuerkreuz-Oben/-Unten/-Links/-Rechts oder drücke 2/4/6/8, um das Flugzeug zu steuern und feindlichem Feuer auszuweichen. Besiege die Bosse, um im Level aufzusteigen."
+    },
+    "es-ES": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike es un juego de combate aéreo de estilo retro en el que te enfrentarás a jefes desafiantes en aviones gigantescos. El juego pondrá a prueba tu habilidad con acción, combates emocionantes y mejoras con las que potenciar tus aviones. Controles: usa el pad direccional arriba/abajo/izquierda/derecha o pulsa 2/4/6/8 para controlar el avión y evitar el fuego de los aviones enemigos mientras el tuyo dispara automáticamente. Derrota a los jefes para completar niveles."
+    },
+    "zh-CN": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike是一款复古风的空战游戏，你可以在这款游戏中挑战驾驶大型飞行器上的首领。你可以畅享丰富的战斗动作和精彩刺激的战斗，利用酷炫的升级让你的飞机变得更强大。这款游戏不仅挑战你的技术，还能为你带来无限乐趣。操作：使用方向键上/下/左/右或按2/4/6/8来操控飞机并躲避敌机的炮火，同时飞机会自动击落对手。击败首领即可完成关卡。"
+    },
+    "zh-TW": {
+      "name": "冷地空襲",
+      "display": "冷地空襲",
+      "description": "《冷地空襲》是一款復古的空中戰鬥遊戲。駕駛巨大飛行器的敵人來勢洶洶，使盡全力應戰吧！各式的特技、刺激的對戰以及酷炫的升級，讓你的飛機更加強大。趕快來考驗自己的飛行技術，刺激十足的挑戰絕對讓你玩到欲罷不能！操作方式：使用虛擬方向鍵的上/下/左/右或按2/4/6/8以控制飛行器。若想避免敵人的攻擊，盡快將對方射下。擊敗Boss完成各個關卡。"
+    },
+    "tr-TR": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike, büyük hava araçlarında zorlu patronlarla karşı karşıya geleceğin eski tarz bir hava muharebesi oyunudur. Aksiyon, heyecan verici çatışmalar ve uçaklarını güçlendirecek harika yükseltmelerle dolu bu oyun, becerilerini sınayacak ve bol bol eğlence sunacak. Kontroller: Uçağı kontrol etmek için D-Pad'de yukarıyı/solu/sağı/aşağıyı kullan veya 2/4/6/8'e bas. Uçağın düşman hava araçlarını otomatikman vurup düşürürken açılan ateşten kaç. Seviyeleri tamamlamak için patronları alt et."
+    },
+    "th-TH": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike คือเกมต่อสู้ทางอากาศแนวย้อนยุคที่ให้คุณได้เผชิญหน้ากับบอสตัวฉกาจมากมายในอากาศยานขนาดมหึมา ด้วยแอ็คชั่นจัดเต็ม การต่อสู้สุดเร้าใจ และอัพเกรดเจ๋ง ๆ ที่จะทำให้เครื่องบินของคุณแข็งแกร่งขึ้น เกมนี้จะทดสอบทักษะของคุณ พร้อมมอบความสนุกสุดเหวี่ยง การควบคุม: ใช้แป้นทิศทางขึ้น/ลง/ซ้าย/ขวา หรือกด 2/4/6/8 เพื่อควบคุมเครื่องบิน หลบหลีกกระสุนจากเครื่องบินศัตรู โดยเครื่องบินจะยิงศัตรูอัตโนมัติ เอาชนะบอสให้ได้เพื่อพิชิตเลเวล"
+    },
+    "id-ID": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike adalah game pertempuran udara bergaya retro. Kamu harus menghadapi bos menantang dalam pesawat yang besar. Dengan beragam aksi, pertempuran menarik, dan upgrade keren untuk menjadikan pesawatmu lebih kuat, game ini akan menguji keahlianmu dan memberikan kesenangan yang melimpah. Kontrol: Gunakan D-Pad Atas/Bawah/Kiri/Kanan atau tekan 2/4/6/8 untuk mengendalikan pesawat atau menghindari temabakan pesawat musuh selagi pesawat secara otomatis menembaki mereka. Kalahkan bos untuk menuntaskan level."
+    },
+    "vi-VN": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike là game không chiến hoài cổ, dùng máy bay chiến đấu hàng khủng để diệt trùm cỡ bự. Hành động chiến đấu kịch tính máu lửa cùng đồ nâng cấp chiến cơ cực chất sẽ khiến bạn mê ngất và hăng máu trổ tài. Điều khiển: Dùng phím D-Pad Lên/Xuống/Trái/Phải hoặc bấm 2/4/6/8 để lái máy bay và né đạn của địch, máy bay sẽ tự động bắn địch. Hạ trùm để qua màn."
+    },
+    "ru-RU": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Siberian Strike - игра в стиле ретро, где вам предстоит сразиться с боссами на огромных самолетах. Вас ждет куча экшена, напряженных воздушных сражений и крутых обновлений для ваших самолетов. Эта игра проверит ваши способности и гарантирует массу удовольствия. Управление: Используйте стрелки джойстика или клавиши 2/4/6/8  для управления самолетом. Сбивайте вражеские самолеты и старайтесь уклоняться от их снарядов. В конце уровней вас ждет битва с боссами."
+    },
+    "pt-BR": {
+      "name": "Siberian Strike",
+      "display": "Siberian Strike",
+      "description": "Syberian Strike é um jogo de combate aéreo retrô no qual você enfrenta chefes desafiadores em aeronaves enormes. Com muita ação, combates excitantes e melhorias para fazer seus aviões mais fortes, o jogo testará suas habilidades e proporcionará muita diversão. Controles: use as teclas de direção para Cima/Baixo/Esquerda/Direita ou pressione 2/4/6/8 para controlar o avião e desviar dos tiros de aeronaves inimigas enquanto atira nelas automaticamente. Derrote os chefes para completar os níveis."
+    }
+  },
+  "default_locale": "en-US"
+}

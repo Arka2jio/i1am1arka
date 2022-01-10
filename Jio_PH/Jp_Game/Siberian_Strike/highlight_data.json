@@ -1,0 +1,18 @@
+{
+	"TryAndBuyMenu_LO" : {
+		"default": "btnBuyFullVersion",		
+		"btnBuyFullVersion" : {"up": "btnLanguage", "down": "btnPlayDemo", "left": "", "right": ""},
+		"btnLanguage" : {"up": "", "down": "btnBuyFullVersion", "left": "", "right": "btnSound"},
+		"btnSound" : {"up": "", "down": "btnBuyFullVersion", "left": "btnLanguage", "right": ""},
+		"btnPlayDemo" : {"up": "btnBuyFullVersion", "down": "btnUnlockCode", "left": "", "right": ""},
+		"btnUnlockCode" : {"up": "btnPlayDemo", "down": "btnCustomerCare", "left": "", "right": ""},
+		"btnCustomerCare" : {"up": "btnUnlockCode", "down": "", "left": "", "right": ""},
+		"btnDialogPositive" : {"up": "", "down": "btnDialogNegative", "left": "", "right": ""},
+		"btnDialogNegative" : {"up": "btnDialogPositive", "down": "", "left": "", "right": ""},
+		"btnCheckCode" : {"up": "tbUnlockCode", "down": "", "left": "", "right": ""},
+		"tbUnlockCode" : {"up": "", "down": "btnCheckCode", "left": "", "right": ""}
+	},
+	"SS_Menu_LO" : {
+		"default": "btn_MM_Play"
+	}
+}
