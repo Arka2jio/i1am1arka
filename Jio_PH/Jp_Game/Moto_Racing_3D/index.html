@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Moto Racing 3D</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="soundmanager2-setup.js"></script>
+    <script src="soundmanager2-jsmin.js"></script>
+    <script src="howler.core.min.js"></script>
+    <script src="howler.min.js"></script>
+    <script src="howler.spatial.min.js"></script>
+    <script src="screenfull.min.js"></script>
+    <script src="kaiads.min.js"></script>
+</head>
+
+<body onload="pageloaded()" style="margin:0px">
+    <div align="center" id="embed-html"></div>
+    <div class="child"><img id="turn_device" src="assets/rotate_device.png" /></div>
+    <script type="text/javascript" src="html/html.nocache.js"></script>
+    <script src="https://connect.facebook.net/en_US/fbinstant.6.0.js"></script>
+
+    <script>
+        document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
+        document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
+        document.getElementById("turn_device").style.visibility = 'hidden';
+        window.addEventListener('resize', handleResize);
+
+        var isPageLoaded = false;
+        var visible = true,
+            focused = true;
+
+        handleResize();
+        disableAllUserEvents();
+
+        function handleMouseDown(evt) {
+            evt.preventDefault();
+            evt.stopPropagation();
+            <!--evt.target.style.cursor = 'default';-->
+            window.focus();
+        }
+
+        function handleMouseUp(evt) {
+            evt.preventDefault();
+            evt.stopPropagation();
+            <!--evt.target.style.cursor = '';-->
+        }
+
+        function handleResize(event) {
+            document.getElementById("turn_device").style.display = 'none';
+        };
+
+        function pageloaded() {
+            document.getElementById("turn_device").style.display = 'none';
+            isPageLoaded = true;
+            handleResize();
+            disableAllUserEvents();
+
+
+            window.addEventListener("visibilitychange", function() {
+                if (document.visibilityState === 'visible') {
+                    visible = true;
+                    console.log("KaiOS visibilitychange " + visible);
+                } else {
+                    visible = false;
+                    console.log("KaiOS visibilitychange " + visible);
+                }
+                checkpause();
+            });
+
+            window.addEventListener("focus", function() {
+                focused = true;
+                console.log("KaiOS focus " + focused);
+                checkpause();
+            });
+
+            window.addEventListener("blur", function() {
+                focused = false;
+                console.log("KaiOS focus " + focused);
+                checkpause();
+            });
+        }
+
+        function checkpause() {
+            console.log("KaiOS checkpause");
+            if (visible === true && focused === true) {
+                playGame();
+            } else {
+                pauseGame();
+            }
+        }
+
+        function playGame() {
+            console.log("KaiOS Play Game");
+            var event = new CustomEvent('KiaOSPlayGame');
+            window.dispatchEvent(event);
+        }
+
+        function exitGame() {
+            console.log("KaiOS Exit Game");
+            window.close();
+        }
+
+        function pauseGame() {
+            console.log("KaiOS Pause Game");
+            var event = new CustomEvent('KiaOSPauseGame');
+            window.dispatchEvent(event);
+        }
+
+        function disableAllUserEvents() {
+            const events = ["click", "contextmenu", "dblclick", "mouseenter", "mouseleave", "mousemove",
+                "mouseover", "mouseout", "keydown", "keypress", "keyup", "blur", "change", "focus", "focusin",
+                "focusout", "input", "invalid", "reset", "search", "select", "submit", "drag", "dragend", "dragenter",
+                "dragleave", "dragover", "dragstart", "drop", "copy", "cut", "paste", "mousewheel", "wheel", "touchcancel",
+                "touchend", "touchmove", "touchstart"
+            ];
+
+            for (let i = 0, l = events.length; i < l; i++) {
+                document.addEventListener(events[i], handler, true);
+            }
+
+            function handler(event) {
+                event.preventDefault();
+            }
+        }
+
+        function ShowAdKiaOS() {
+            var event = new CustomEvent('ShowAdKiaOS');
+            window.dispatchEvent(event);
+        }
+
+        function InitKiaOSAd(ID, appName, slotName) {
+            console.log('display event\t' + "ID\t" + ID + "\tappName\t" + appName + "\tslotName\t" + slotName);
+            getKaiAd({
+                publisher: ID,
+                app: appName,
+                slot: slotName,
+                onerror: err => console.error('Custom catch:', err),
+                onready: ad => {
+                    // Ad is ready to be displayed
+                    // custom event
+                    window.addEventListener('ShowAdKiaOS', function() {
+                        console.log("showing Ad");
+                        ad.call('display')
+                    }, false);
+
+                    // user closed the ad (currently only with fullscreen)
+                    ad.on('close', () => {
+                        console.log('close event');
+                        var event = new CustomEvent('KiaOSAdClose');
+                        window.dispatchEvent(event);
+                    })
+
+                    // the ad succesfully displayed
+                    ad.on('display', () => {
+                        console.log('display event');
+                        var event = new CustomEvent('KiaOSAdDisplay');
+                        window.dispatchEvent(event);
+                    })
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

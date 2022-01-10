@@ -1,0 +1,25 @@
+{
+  "name": "Moto Racing 3D",
+  "description": "Defeat the traffic, ride your bike to challenge everyone in this endless Bike Racing game.",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icon-56.png",
+	"112": "/icon-112.png"
+  },
+  "developer": {
+    "name": "Rendered Ideas",
+    "url": "http://www.renderedideas.com"
+  },
+  "default_locale": "en",
+  "chrome": { "navigation": false },
+  "fullscreen": "true",
+  "type": "web",
+  "locales": {
+  "en-US": {
+    "name": "Moto Racing 3D",
+	"subtitle": "Race your Bike to the Top of the Leaderboard!",
+    "description": "Defeat the traffic, ride your bike to challenge everyone in this endless Bike Racing game."
+  }
+  },
+  "version": "1.1.2"
+}
