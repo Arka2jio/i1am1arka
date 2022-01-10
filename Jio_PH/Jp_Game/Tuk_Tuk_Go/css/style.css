@@ -1,0 +1,10 @@
+#container       {
+    overflow: hidden; 
+    position: relative; 
+    z-index: 0;
+}
+
+#ads-banner      { 
+    overflow: hidden;
+    position: absolute ! important; 
+}

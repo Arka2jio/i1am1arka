@@ -1,0 +1,26 @@
+{
+  "version": "1.0.3",
+  "name": "Tuk Tuk Go",
+  "description": "Hammerplay's Tuk Tuk Go",
+  "type": "web",
+  "launch_path": "/index.html",
+
+  "icons": {
+    "56": "/assets/icons/TukTukGo_56.png",
+    "112": "/assets/icons/TukTukGo_112.png"
+  },
+
+  "developer": {
+    "name": "Hammerplay Studios",
+    "url": "http://hammerplay.com"
+  },
+  "fullscreen": true,
+  "locales": {
+      "en-US": {
+        "name": "Tuk Tuk Go",
+        "subtitle" : "Endless Runner",
+        "description": "Ride the classic Tuk Tuk as long as you can by avoiding obstacles. Grab cool power ups that transform your Tuk Tuk to Hovercraft, Rocket, Bird and many more to achieve highscore!"
+      }
+    },
+    "default_locale": "en-US"
+  }
