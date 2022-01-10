@@ -1,0 +1,83 @@
+/* KaiOS portrait devices (240x320) */
+@media only screen and (orientation : portrait) {
+
+ body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #cbc9cc;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+  
+}
+
+/* KaiOS landscape devices (320x240) */
+@media screen and (orientation: landscape) {
+
+  body {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-color: #cbc9cc;  
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+  
+}
+
+
+header { 
+  display:block;
+  position: fixed;
+  background-color: #cbc9cc; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 17px;
+  color: #000000;
+
+}
+
+
+.okkey {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.othkey {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+footer {
+	background-color: #cbc9cc; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.footertable {
+  width: 100%;
+}
+
+.footerth {
+  width: 33%;
+}
+
+.jus {
+ text-align: justify;
+ margin-right: 5px;
+ margin-left: 5px;
+}

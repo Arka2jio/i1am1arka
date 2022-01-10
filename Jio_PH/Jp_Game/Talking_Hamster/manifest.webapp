@@ -1,0 +1,45 @@
+{
+  "name": "Talking Hamster",
+  "short_name": "Hamster",
+  "description": "The talking hamster will repeat everything you say no matter you laugh, sing or speak english, russian, spanish or any other languages.",
+  "subtitle": "Our hamster repeats everything you say!",
+  "launch_path": "/index.html",
+  "version": "1.0.0",
+  "type":"web",
+  "fullscreen": "true",
+  "theme_color": "#008080",
+  "icons": {
+    "56": "/icons/hams_56.png",
+    "112": "/icons/hams_112.png"
+  },
+  "developer": {
+    "name": "Valesios",
+    "url": "http://valesios.github.io"
+  },
+  "locales": {
+  "en-US": {
+	"name": "Talking Hamster",
+	"short_name": "Hamster",
+	"description": "The talking hamster will repeat everything you say no matter you laugh, sing or speak english, russian, spanish or any other languages.",
+	"subtitle": "Our hamster repeats everything you say!"
+  },
+    "ru-RU": {
+	"name": "Говорящий Хомяк",
+	"short_name": "Хомяк",
+	"description": "Говорящий хомяк повторит все, что вы скажите, независимо от того, смеетесь ли вы, поете или говорите на английском, русском, испанском или любом другом языке!",
+	"subtitle": "Наш хомяк повторит все, что вы скажите!"
+  },
+    "uk-UA": {
+	"name": "Розмовляючий Хом'як",
+	"short_name": "Хом'як",
+	"description": "Розмовляючий хом'як повторить все, що ви cкажите, незалежно від того, смієтеся ви, співаєте або говорите англійською, російською, іспанською або будь-якому іншою мовою!",
+	"subtitle": "Наш хом'як повторює все, що ви cкажите!"
+  }
+  },
+  "default_locale": "en-US",
+    "permissions": {
+  "audio-capture": {
+    "description": "Required to capture audio using getUserMedia()"
+  }
+}
+}
