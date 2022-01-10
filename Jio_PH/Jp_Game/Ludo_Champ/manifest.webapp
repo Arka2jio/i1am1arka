@@ -1,0 +1,26 @@
+{
+  "version": "1.0.3",
+  "name": "Ludo Champ",
+  "description": "Ludo Champ by Roosh",
+  "launch_path": "/index.html",
+  "type": "web",
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "Roosh Interactive",
+    "url": "http://www.rooshinteractive.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Ludo Champ",
+      "subtitle": "Classic Board Game.",
+      "description": "Ludo Champ is a classic and a favourite childhood ludo game played between family and friends. Ludo Champ is the new age version of the royal game of Chopat, Chaupur, Pachisi or Parcheesi."
+    }
+  },
+  "default_locale": "en-US",
+  "fullscreen": true,
+  "permissions":{
+  }
+}
