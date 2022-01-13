@@ -1,0 +1,29 @@
+{
+  "version": "1.0.7",
+  "name": "Candy Jam",
+  "description": "Select and move the candy to switch positions. Match 3 or more of the same candy to score points.",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/media/graphics/promo/icons/56x56.png",
+    "112": "/media/graphics/promo/icons/112x112.png"
+  },
+  "Access-Control-Allow-Origin":"*",
+  "permissions": {
+  "audio-channel-content":"Allow"
+  },
+  "developer": {
+    "name": "MarketJS",
+    "url": "http://marketjs.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Candy Jam",
+      "subtitle": "Match candy to win",
+      "description": "Select and move the candy to switch positions. Match 3 or more of the same candy to score points."
+    }
+  },
+  "default_locale": "en-US",
+  "orientation": [ "portrait-primary" ],
+  "fullscreen": "true"
+}
