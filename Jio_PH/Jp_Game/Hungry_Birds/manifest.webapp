@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "name": "Hungry Birds",
+  "description": "Move around using Left/4 or Right/6 and make sure to fly by pressing Middle/5, else you will start falling. Your goal is to collect fruits while avoiding the enemies!",
+  "type": "web",
+  "theme_color": "#00A651",
+  "orientation": [ "portrait-primary" ],
+  "fullscreen": "true",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/56.png",
+    "112": "/112.png"
+  },
+  "developer": {
+    "name": "Black Sheep Games",
+    "email": "info@blacksheepgames.gr",
+	"url": "http://www.blacksheepgames.gr"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Hungry Birds",
+      "subtitle": "Fly around, avoid enemies and eat the fruit!",
+      "description": "Move around using Left/4 or Right/6 and make sure to fly by pressing Middle/5, else you will start falling. Your goal is to collect fruits while avoiding the enemies!"
+    }
+  },
+  "default_locale": "en-US"
+}
