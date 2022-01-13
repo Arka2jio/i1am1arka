@@ -1,0 +1,24 @@
+{
+  "version": "1.1.1",
+  "name": "Yeti Fishing",
+  "description": "A fun fishing game",
+  "type": "web",
+  "launch_path": "/index.html",
+  "orientation": [ "landscape-primary" ],
+  "fullscreen": "true",
+  "icons": {
+    "56": "/images/icons/icon_YetiFishIC_56.png",
+    "112": "/images/icons/icon_YetiFishIC_112.png"
+  },
+  "developer": {
+    "name": "Migoi Studios",
+    "url": "http://www.migoistudios.com/"
+  },
+  "locales": {
+    "en-US": {
+        "name": "Yeti Fishing",
+        "description": "A fun fishing game"
+    }
+  },
+  "default_locale": "en-US"
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yeti Fishing</title>
+
+    <link rel="manifest" href="manifest.webapp" type="application/x-web-app-manifest+json">
+    <script src="js/phaser.min.js"></script>
+    <script src="js/kaiads.v3.min.js"></script>
+    <script src="js/SceneAD.js"></script>
+    <script src="js/Score.js"></script>
+    <script src="js/gamescene.js"></script>
+    <script src="js/menuscene.js"></script>
+    <script src="js/instruct.js"></script>
+    <script src="js/gameover.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        body {
+            position: fixed;
+            overflow: hidden;
+        }
+
+        #game {
+            color: chartreuse;
+            width: 100%;
+            height: 100%;
+            margin-top: -8px;
+            margin-left: -8px;
+            padding: 0px;
+            border: 0px;
+        }
+
+        #softkey {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+            line-height: 100%;
+            background-color: transparent;
+            padding: 0;
+            margin: 0;
+            border: 0px;
+        }
+
+        #softkey label {
+            background-color: transparent;
+            font-size: 1.0em;
+            width: 32%;
+            height: 100%;
+        }
+
+        #left {
+            text-align: center;
+            position: absolute;
+            left: 0%;
+            width: 100%;
+        }
+
+        #center {
+            text-align: center;
+            position: absolute;
+            left: 33%;
+            width: 100%;
+        }
+
+        #right {
+            text-align: center;
+            position: absolute;
+            left: 66%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="game">
+
+    </div>
+    <div id="softkey">
+        <label id="left"></label>
+        <label id="center"></label>
+        <label id="right"></label>
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
